@@ -1,1 +1,20 @@
+/* Ensure the body takes full height of the viewport */
+html, body {
+    height: 100%; /* Full height for the viewport */
+    margin: 0;    /* Remove default margin */
+}
+
+/* Use Flexbox to center the content */
+body {
+    display: flex;           /* Activate flexbox */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;     /* Vertically center the content */
+    font-family: Arial, sans-serif;
+}
+
+/* Optional: Style the centered text */
+.centered-text {
+    font-size: 24px; /* Adjust font size as needed */
+    text-align: center; /* Align text to the center of the div */
+}
 
